@@ -139,7 +139,7 @@ struct Game {
         }
         
         //Check hoà
-        if currentMove == K.gameMove*K.gameMove {
+        if currentMove == K.gameSize*K.gameSize {
             return .Draw
         }
         
